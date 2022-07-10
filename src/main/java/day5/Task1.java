@@ -10,7 +10,5 @@ public class Task1 {
                 "Car brand: " + car.getModel() + "\nThe color of the machine: "
                 + car.getColor() + "\nYear of manufacture of the car: " + car.getYearOfRelease()
         );
-        System.out.println();
-        System.out.println();
     }
 }

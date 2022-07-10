@@ -10,7 +10,7 @@ public class Motorbike {
         this.color = color;
         this.yearOfRelease = yearOfRelease;
     }
-
+//
     public String getModel() {
         return model;
     }

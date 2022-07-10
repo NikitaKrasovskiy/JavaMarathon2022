@@ -4,7 +4,7 @@ public class Car {
     private String model;
     private String color;
     private int yearOfRelease;
-
+//
     public String getModel() {
         return model;
     }

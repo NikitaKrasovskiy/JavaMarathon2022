@@ -6,7 +6,7 @@ public class Task1 {
         Motorbike motorbike = new Motorbike("Kawasaki","blue",2020);
         Car car = new Car();
         car.setModel("BMW");
-        car.setColor("Green");
+        car.setColor("Green and Black");
         car.setYearOfRelease(2020);
 
         car.info();

@@ -40,7 +40,8 @@ public class Airplane {
     }
 
     public void info() {
-        System.out.println("Manufacturer: " + manufacturer + "; year of release: "
+        System.out.println(
+                "Manufacturer: " + manufacturer + "; year of release: "
                 + year + "; Length: " + length + "; Weight: " + weight
                 + "; amount of fuel in the tank: " + getFuel()
         );

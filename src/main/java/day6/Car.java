@@ -28,7 +28,7 @@ public class Car {
     public void setYearOfRelease(int yearOfRelease) {
             this.yearOfRelease = yearOfRelease;
     }
-
+//
     void info()
     {
         System.out.println("Это автомобиль");

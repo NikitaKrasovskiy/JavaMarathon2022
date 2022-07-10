@@ -18,6 +18,7 @@ public class Teacher {
         int randomNumber = random.nextInt(4) + 2;
 
         String evaluateStudent = null;
+
         for (String evaluate:ESTIMATION_ARRAYS) {
             if(randomNumber == 2) {
                 evaluate = ESTIMATION_ARRAYS[3];
@@ -30,7 +31,8 @@ public class Teacher {
             }
             evaluateStudent = evaluate;
         }
-        System.out.println("Преподователь " + nameTeacher +",оценил студента " + student.getNameStudent()
+        System.out.println(
+                "Преподователь " + nameTeacher +",оценил студента " + student.getNameStudent()
         + " по предмету " + object + " на оценку: " + evaluateStudent
         );
     }

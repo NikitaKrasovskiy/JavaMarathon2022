@@ -8,7 +8,7 @@ public class Task2 {
         airplane2.setYear(2015);
         airplane2.setLength(36);
         airplane2.fillUp(2000);
-        airplane2.fillUp(1000);
+        airplane2.fillUp(10000);
         airplane2.info();
 
     }

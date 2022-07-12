@@ -36,6 +36,6 @@ public class Player {
         }else {
             System.out.println("На поле нет свободных мест");
         }
-
+//
     }
 }

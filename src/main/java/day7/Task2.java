@@ -22,7 +22,7 @@ public class Task2 {
         }
         player1.info();
         Player player7 = new Player(random.nextInt(100 - 90) + 90);
-        player7.info();
+        player7.info();//
 
     }
 }
